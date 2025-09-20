@@ -9,7 +9,7 @@ const settings = {
 
 //setting up alchemy
 const alchemy = new Alchemy(settings);
-const beaconDepositContract = "0x00000000219ab540356cBB839Cbe05303d7705Fa";
+const beaconDepositContract = "0x0a502f846F6dc2e3D4d8C595B18b3AF44657B1bD";
 
 export async function getLatestBlockNumber(): Promise<number> {
   return await alchemy.core.getBlockNumber();
